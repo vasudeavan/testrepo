@@ -1,0 +1,11 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - "49160:8080"
+    networks: 
+      - frontend
+networks:
+  frontend:
+    external: false
