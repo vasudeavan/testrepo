@@ -6,7 +6,7 @@ docker-compose up
 # Docker compose up in detached mode
 docker-compose up -d
 
-#Docker compose list launched container
+# Docker compose list launched container
 docker-compose ps
 
 # Docker compose down
